@@ -5,13 +5,141 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assests/css/reset.css">
-    <link rel="stylesheet" href="./assests/css/normalize.css">
-    <link rel="stylesheet" href="./assests/css/style.css">
-    
+    <title>Car sharing</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+<header class="header">
+    <nav class="nav">
+        <div class="container nav__container">
+            <div class="nav__logo">
+                <img class="logo__img" src="assets/images/icon logo normal.svg" alt="">
+                <p class="logo__text"><span>car</span>sharing</p>
+            </div>
+            <div class="nav__links">
+                <a href="#" class="nav__link">home</a>
+                <a href="#" class="nav__link">blog</a>
+                <a href="#" class="nav__link">service</a>
+                <a href="#" class="nav__link">contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="header__content">
+        <div class="container content__container">
+            <h1 class="content__headline">car sharing</h1>
+            <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="content__links">
+                <a href="" class="content__link content__link--primary">share a car</a>
+                <a href="" class="content__link content__link--secondary">key features</a>
+            </div>
+        </div>
+    </div>
+</header>
 
+<section class="block">
+    <h2>Blog</h2>
+    <div class="block__container">
+        <article class="block__content">
+            <img class="block__image" src="./assets/images/photo1.png">
+                 <h3>LOREM IPSUM SIT DOLOR</h3>
+            <p class="block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a class="block__link" href="#">Read More</a>
+        </article>
+        <article class="block__content">
+            <img class="block__image" src="./assets/images/photo2.png">
+            <h3>LOREM IPSUM SIT DOLOR</h3>
+            <p class="block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a class="block__link" href="#">Read More</a>
+        </article>
+        <article class="block__content">
+            <img class="block__image" src="./assets/images/photo3.png">
+            <h3>LOREM IPSUM SIT DOLOR</h3>
+            <p class="block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a class="block__link" href="#">Read More</a>
+        </article>
+    </div>
+</section>
+
+<section class="service">
+    <h2>Service</h2>
+    <div class="service__container">
+        <article class="service__content">
+            <img class="service__image" src="./assets/images/mini1.png">
+            <h3>LOREM IPSUM SIT DOLOR</h3>
+            <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a class="service__link" href="#">Read More</a>
+        </article>
+        <article class="service__content">
+            <img class="service__image" src="./assets/images/mini2.png">
+            <h3>LOREM IPSUM SIT DOLOR</h3>
+            <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a class="service__link" href="#">Read More</a>
+        </article>
+        <article class="service__content">
+            <img class="service__image" src="./assets/images/mini3.png">
+            <h3>LOREM IPSUM SIT DOLOR</h3>
+            <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a class="service__link" href="#">Read More</a>
+        </article>
+        <article class="service__content">
+            <img class="service__image" src="./assets/images/mini4.png">
+            <h3>LOREM IPSUM SIT DOLOR</h3>
+            <p class="service__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a class="service__link" href="#">Read More</a>
+        </article>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact</h2>
+     <article class="contact__content">
+         <div class="container contact__container">
+         <img class="contact__image" src="assets/images/form photo.png">
+             <form action="" class="form">
+                 <input type="text" placeholder="Type your name" class="name">
+                 <input type="email" placeholder="Type your e-mail" class="mail">
+                 <textarea cols="30" rows="10" class="textarea"></textarea>
+                 <label class="form__label form__label--checkbox">
+                     <input type="checkbox" class="form__input--checkbox">
+                     <span class="checkbox__span"></span>
+                     <span class="checkbox__consent">I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+                     </span>
+                 </label>
+
+                 <button class="button" type="submit">Send</button>
+             </form>
+         </div>
+     </article>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__logo">
+            <img class="logo__img" src="assets/images/icon logo normal.svg" alt="">
+            <p class="logo__text"><span>car</span>sharing</p>
+        </div>
+        <div class="footer__content">
+            <div class="footer__links footer__links--primary">
+                <a class="footer__link" href="#">home page</a>
+                <a class="footer__link" href="#">about us</a>
+                <a class="footer__link" href="#">gallery</a>
+                <a class="footer__link" href="#">share regulation</a>
+            </div>
+            <div class="footer__links footer__links--seconary">
+                <a class="footer__link" href="#">price</a>
+                <a class="footer__link" href="#">our fleet</a>
+                <a class="footer__link" href="#">our clients</a>
+                <a class="footer__link" href="#">contact</a>
+            </div>
+            <p class="footer__copyright">Copyright &#169 CodersLab</p>
+        </div>
+
+    </div>
+</footer>
+
+</section>
 </body>
 </html>

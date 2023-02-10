@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Car sharing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__logo">
+                    <img class="logo__img" src="./assets/images/Icon%20Logo%20Normal.svg" alt="logo">
+                    <p class="logo__text"><span>car</span> sharing</p>
+                </div>
+                <div class="nav__links">
+                    <a href="#" class="nav__link">home</a>
+                    <a href="#" class="nav__link">blog</a>
+                    <a href="#" class="nav__link">service</a>
+                    <a href="#" class="nav__link">contact</a>
+                </div>
+            </div>
+        </nav>
+        <div class="header__content">
+            <div class="container">
+                <h1 class="content__headline">car sharing</h1>
+                <p class="content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="content__links">
+                    <a href="" class="content__link content__link--primary">share a car</a>
+                    <a href="" class="content__link content__link--secondary">key features</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="blog">
+        <h2 class="headline">blog</h2>
+        <div class="container">
+            <article class="blog__article">
+                <img src="./assets/images/photo1.png" alt="photo 1" class="article__img">
+                <h3 class="article__title">LOREM IPSUM SIT DOLOR</h3>
+                <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article__link">read more</a>
+            </article>
+            <article class="blog__article">
+                <img src="./assets/images/photo2.png" alt="photo 1" class="article__img">
+                <h3 class="article__title">LOREM IPSUM SIT DOLOR</h3>
+                <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article__link">read more</a>
+            </article>
+            <article class="blog__article">
+                <img src="./assets/images/photo3.png" alt="photo 1" class="article__img">
+                <h3 class="article__title">LOREM IPSUM SIT DOLOR</h3>
+                <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article__link">read more</a>
+            </article>
+        </div>
+    </section>
+    <section class="service">
+        <h2 class="headline">service</h2>
+        <div class="container">
+            <article class="service__article">
+                <img src="./assets/images/mini1.png" alt="photo 1" class="article__img">
+                <h3 class="article__title">LOREM IPSUM SIT DOLOR</h3>
+                <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article__link">read more</a>
+            </article>
+            <article class="service__article">
+                <img src="./assets/images/mini2.png" alt="photo 1" class="article__img">
+                <h3 class="article__title">LOREM IPSUM SIT DOLOR</h3>
+                <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article__link">read more</a>
+            </article>
+            <article class="service__article">
+                <img src="./assets/images/mini3.png" alt="photo 1" class="article__img">
+                <h3 class="article__title">LOREM IPSUM SIT DOLOR</h3>
+                <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article__link">read more</a>
+            </article>
+            <article class="service__article">
+                <img src="./assets/images/mini4.png" alt="photo 1" class="article__img">
+                <h3 class="article__title">LOREM IPSUM SIT DOLOR</h3>
+                <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="article__link">read more</a>
+            </article>
+        </div>
+    </section>
+    <section class="contact">
+        <h2 class="headline">contact</h2>
+        <div class="container">
+            <img class="contact__img" src="./assets/images/Form%20Photo.png" alt="">
+            <form class="contact__form">
+                <input type="text" class="form__input" placeholder="Name">
+                <input type="email" class="form__input" placeholder="Email">
+                <textarea class="form__input" rows="8" placeholder="Message"></textarea>
+                <label class="form__label form__label--checkbox">
+                    <input type="checkbox" class="form__input--checkbox">
+                    <span class="label__span"></span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </label>
+                <button type="submit" class="form__submit">send</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__info">
+                <div class="info__logo">
+                    <img class="logo__img" src="./assets/images/Logo%20Footer.svg" alt="">
+                    <p class="logo__text">
+                        <span>Car</span> sharing
+                    </p>
+                </div>
+                <div class="info__links">
+                    <div class="links__container">
+                        <a href="" class="link">werogewog</a>
+                        <a href="" class="link">2wergergewg</a>
+                        <a href="" class="link">3ergeg</a>
+                        <a href="" class="link">4wegrewgr</a>
+                    </div>
+                    <div class="links__container">
+                        <a href="" class="link">1ergewg</a>
+                        <a href="" class="link">2egwegrwe</a>
+                        <a href="" class="link">3egrwegew</a>
+                        <a href="" class="link">4wergewrgwegr</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <small>Copyright © Coders Lab</small>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
